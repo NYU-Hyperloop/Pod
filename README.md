@@ -17,5 +17,5 @@ pip install -r requirements
 There is a sample config along with a CA cert and client cert/key pair in the `test/` directory. **DO NOT** use these in production.
 
 ```bash
-python pod.py test/pod.cfg
+python pod.py -c test/pod.cfg
 ```
